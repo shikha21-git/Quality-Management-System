@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Software Qualification Test</title>
+</head>
+<body>
+ <table>
+    <tr>
+    <th>Process ID</th>
+    <th>SWE.6</th>
+  </tr>
+    <tr>
+    <th>Process name</th>
+    <th>Software Qualification Test</th>
+  </tr>
+    <tr>
+    <th>Process purpose </th>
+    <td>The purpose of the Software Qualification Test Process is to ensure that
+the integrated software is tested to provide evidence for compliance with
+the software requirements.
+</td>
+    </tr>
+    <tr>
+    <th>Process outcomes</th>
+    <td>As a result of successful implementation of this process:<br>
+1) a software qualification test strategy including regression test strategy
+consistent with the project plan and release plan is developed to test
+the integrated software;<br>
+2) a specification for software qualification test of the integrated software
+according to the software qualification test strategy is developed that
+is suitable to provide evidence for compliance with the software
+requirements;<br>
+3) test cases included in the software qualification test specification are
+selected according to the software qualification test strategy and the
+release plan;<br>
+4) the integrated software is tested using the selected test cases and the
+results of software qualification test are recorded;<br>
+5) consistency and bidirectional traceability are established between
+software requirements and software qualification test specification
+including test cases and between test cases and test results; and<br>
+6) results of the software qualification test are summarized and
+communicated to all affected parties.<br>
+</td>
+      </tr>
+        <tr>
+    <th>Base Practices</th>
+    <td>
+      <b>SWE.6.BP1: Develop software qualification test strategy including
+regression test strategy.</b> Develop a strategy for software qualification
+testing consistent with the project plan and the release plan. This includes
+a regression test strategy for re-testing the integrated software if a software
+item is changed. [OUTCOME 1]<br>
+<b>SWE.6.BP2: Develop specification for software qualification test.</b>
+Develop the specification for software qualification test including test cases
+based on the verification criteria, according to the software test strategy.
+The test specification shall be suitable to provide evidence for compliance
+of the integrated software with the software requirements. [OUTCOME 2]<br>
+  <b>SWE.6.BP3: Select test cases.</b> Select test cases from the software test
+specification. The selection of test cases shall have sufficient coverage
+according to the software test strategy and the release plan. [OUTCOME 3]<br>
+<b>SWE.6.BP4: Test integrated software.</b> Test the integrated software using
+the selected test cases. Record the software test results and logs. [OUTCOME
+4]<br>
+NOTE 1: See SUP.9 for handling of non-conformances.<br>
+<b>SWE.6.BP5: Establish bidirectional traceability.</b> Establish bidirectional
+traceability between software requirements and test cases included in the
+software qualification test specification. Establish bidirectional traceability
+between test cases included in the software qualification test specification
+and software qualification test results. [OUTCOME 5]<br>
+NOTE 2: Bidirectional traceability supports coverage, consistency and impact
+analysis.<br>
+<b>SWE.6.BP6: Ensure consistency.</b> Ensure consistency between software
+requirements and test cases included in the software qualification test
+specification. [OUTCOME 5]<br>
+NOTE 3: Consistency is supported by bidirectional traceability and can be
+demonstrated by review records.<br>
+<b>SWE.6.BP7: Summarize and communicate results.</b> Summarize the
+software qualification test results and communicate them to all affected
+parties. [OUTCOME 6]<br>
+NOTE 4: Providing all necessary information from the test case execution in a
+summary enables other parties to judge the consequences.<br>
+            <tr>
+    <th>Output work products</th>
+    <td>
+08-50 <a href="webpage.html">Test specification</a> → [OUTCOME 2, 3]<br>
+08-52 <a href="webpage.html">Test plan</a> → [OUTCOME 1]<br>
+13-04 <a href="webpage.html">Communication record</a> → [OUTCOME 6]<br>
+13-19 <a href="webpage.html">Review record</a> → [OUTCOME 5]<br>
+13-22 <a href="webpage.html">Traceability record</a> → [OUTCOME 5]<br>
+13-50 <a href="webpage.html">Test result</a> → [OUTCOME 4, 6]<br>
+    </td>
+      </tr>
+    </table>
+</body>

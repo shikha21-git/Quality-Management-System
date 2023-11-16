@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Software Unit Verification</title>
+</head>
+<body>
+ <table>
+    <tr>
+    <th>Process ID</th>
+    <th>SWE.4</th>
+  </tr>
+    <tr>
+    <th>Process name</th>
+    <th>Software Unit Verification</th>
+  </tr>
+    <tr>
+    <th>Process purpose </th>
+    <td>The purpose of the Software Unit Verification Process is to verify software
+units to provide evidence for compliance of the software units with the
+software detailed design and with the non-functional software
+requirements.
+</td>
+    </tr>
+    <tr>
+    <th>Process outcomes</th>
+    <td>As a result of successful implementation of this process:<br>
+1) a software unit verification strategy including regression strategy is
+developed to verify the software units;<br>
+2) criteria for software unit verification are developed according to the
+software unit verification strategy that are suitable to provide evidence
+for compliance of the software units with the software detailed design
+and with the non-functional software requirements;<br>
+3) software units are verified according to the software unit verification
+strategy and the defined criteria for software unit verification and the
+results are recorded;<br>
+4) consistency and bidirectional traceability are established between
+software units, criteria for verification and verification results; and<br>
+5) results of the unit verification are summarized and communicated to
+all affected parties.<br>
+</td>
+      </tr>
+        <tr>
+    <th>Base Practices</th>
+    <td>
+       <b>SWE.4.BP1: Develop software unit verification strategy including
+regression strategy.</b> Develop a strategy for verification of the software
+units including regression strategy for re-verification if a software unit is
+changed. The verification strategy shall define how to provide evidence for
+compliance of the software units with the software detailed design and with
+the non-functional requirements. [OUTCOME 1]<br>
+NOTE 1: Possible techniques for unit verification include static/dynamic
+analysis, code reviews, unit testing etc.<br>
+<b>SWE.4.BP2: Develop criteria for unit verification.</b> Develop criteria for
+unit verification that are suitable to provide evidence for compliance of the
+software units, and their interactions within the component, with the
+software detailed design and with the non-functional requirements
+according to the verification strategy. For unit testing, criteria shall be
+defined in a unit test specification. [OUTCOME 2]<br>
+NOTE 2: Possible criteria for unit verification include unit test cases, unit test
+data, static verification, coverage goals and coding standards such as the
+MISRA rules.<br>
+NOTE 3: The unit test specification may be implemented e.g. as a script in an
+automated test bench.<br>
+<b>SWE.4.BP3: Perform static verification of software units.</b> Verify
+software units for correctness using the defined criteria for verification.
+Record the results of the static verification. [OUTCOME 3]<br>
+NOTE 4: Static verification may include static analysis, code reviews, checks
+against coding standards and guidelines, and other techniques.<br>
+NOTE 5: See SUP.9 for handling of non-conformances.<br>
+<b>SWE.4.BP4: Test software units.</b> Test software units using the unit test
+specification according to the software unit verification strategy. Record the
+test results and logs. [OUTCOME 3]<br>
+NOTE 6: See SUP.9 for handling of non-conformances.<br>
+<b>SWE.4.BP5: Establish bidirectional traceability.</b> Establish bidirectional
+traceability between software units and static verification results. Establish
+bidirectional traceability between the software detailed design and the unit
+test specification. Establish bidirectional traceability between the unit test
+specification and unit test results. [OUTCOME 4]<br>
+NOTE 7: Bidirectional traceability supports coverage, consistency and impact
+analysis.<br>
+<b>SWE.4.BP6: Ensure consistency.</b> Ensure consistency between the
+software detailed design and the unit test specification. [OUTCOME 4]<br>
+NOTE 8: Consistency is supported by bidirectional traceability and can be
+demonstrated by review records.<br>
+<b>SWE.4.BP7: Summarize and communicate results.</b> Summarize the unit
+test results and static verification results and communicate them to all
+affected parties. [OUTCOME 5]<br>
+NOTE 9: Providing all necessary information from the test case execution in a
+summary enables other parties to judge the consequences.<br>
+            <tr>
+    <th>Output work products</th>
+    <td>
+08-50 <a href="webpage.html">Test specification</a>→ [OUTCOME 2]<br>
+08-52 <a href="webpage.html">Test plan</a> → [OUTCOME 1]<br>
+13-04 <a href="webpage.html">Communication record</a> → [OUTCOME 5]<br>
+13-19 <a href="webpage.html">Review record</a> → [OUTCOME 3, 4]<br>
+13-22 <a href="webpage.html">Traceability record</a> → [OUTCOME 4]<br>
+13-25 <a href="webpage.html">Verification results</a> → [OUTCOME 3, 5]<br>
+13-50 <a href="webpage.html">Test result</a> → [OUTCOME 3, 5]<br>
+15-01 <a href="webpage.html">Analysis report</a> → [OUTCOME 3]<br>
+
+    </td>
+      </tr>
+    </table>
+</body>

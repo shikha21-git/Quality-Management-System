@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* for main heading */
+.Quality-heading {
+    font-size: calc(1.525rem + 3.3vw);
+    margin-top: 30px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+    .Quality-heading {
+        font-size: 4rem;
+    }
+}
+
+.Quality-container {
+    margin-top: 20px;
+}
+
+/* styling of project quality gates*/
+.ProjectQuality-Gate {
+    width: 80%;
+    height: 45px;
+    border-radius: 5%;
+    background-color: #33adba;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: auto;
+}
+
+.Quality-title {
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.Quality-img img {
+    width: 1130px;
+
+    margin-top: 10px;
+    margin: auto;
+}
+
+/* Responsive design according to screen size */
+@media (min-width:1300px) {
+    .Quality-img img {
+        width: 1380px;
+        margin-left: -50px;
+    }
+}
+
+/* if screen is small in size qualiity image is set to none and all buttons will overlap */
+@media (max-width:1200px) {
+    .Quality-img img {
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .buttons {
+        margin-top: 30px;
+    }
+
+    .btn {
+        font-size: 9px;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+.Release {
+    background-color: rgb(123, 243, 123);
+    border: none;
+}
+
+.initiation {
+    background-color: rgb(253, 152, 21);
+    border: none;
+}
+
+.concept {
+    color: white;
+}
+
+/* designing of System Quality Gate */
+.MiddleQuality-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.SystemQuality-Gate {
+    width: 65%;
+    height: 45px;
+    border-radius: 5%;
+    background-color: #002060;
+    margin-top: 30px;
+    position: relative;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.SystemQuality-Panel {
+    margin-top: 20px;
+}
+
+.System-img img {
+    text-align: center;
+    margin-left: 150px;
+    width: 800px;
+}
+
+@media (min-width:1300px) {
+    .System-img img {
+        width: 840px;
+        margin-left: 225px;
+    }
+}
+
+/* if the screen is small the panel will adjust according to the screen size */
+@media (max-width:1000px) {
+    .System-img img {
+        max-width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+.LowerQuality-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.SWQuality-Gate {
+    width: 40%;
+    height: 45px;
+    border-radius: 5%;
+    background-color: #70309f;
+    margin-top: 30px;
+    position: relative;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.SW-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 280px;
+}
+
+.SWQuality-Panel {
+    margin-top: 20px;
+}
+
+@media (min-width:1300px) {
+    .SW-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-left: 380px;
+    }
+}
+@media (max-width:1000px) {
+    .SW-img img {
+       width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}

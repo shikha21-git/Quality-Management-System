@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Software Requirements Analysis</title>
+</head>
+<body>
+<table>
+    <tr>
+    <th>Process ID</th>
+    <th>SWE.1</th>
+  </tr>
+    <tr>
+    <th>Process name</th>
+    <th>Software Requirements Analysis</th>
+  </tr>
+    <tr>
+    <th>Process purpose </th>
+    <td>The purpose of the Software Requirements Analysis Process is to
+transform the software related parts of the system requirements into a set
+of software requirements.
+</td>
+    </tr>
+    <tr>
+    <th>Process outcomes</th>
+    <td>As a result of successful implementation of this process:<br>
+1) the software requirements to be allocated to the software elements of
+the system and their interfaces are defined;<br>
+2) software requirements are categorized and analyzed for correctness
+and verifiability;<br>
+3) the impact of software requirements on the operating environment is
+analyzed;<br>
+4) prioritization for implementing the software requirements is defined;<br>
+5) the software requirements are updated as needed;<br>
+6) consistency and bidirectional traceability are established between
+system requirements and software requirements; and consistency and
+bidirectional traceability are established between system architectural
+design and software requirements;<br>
+7) the software requirements are evaluated for cost, schedule and
+technical impact; and <br>
+8) the software requirements are agreed and communicated to all
+affected parties.</td>
+      </tr>
+        <tr>
+    <th>Base Practices</th>
+    <td>
+       <b>SWE.1.BP1: Specify software requirements.</b> Use the system
+requirements and the system architecture and changes to system
+requirements and architecture to identify the required functions and
+capabilities of the software. Specify functional and non-functional software
+requirements in a software requirements specification. [OUTCOME 1, 5, 7]<br>
+NOTE 1: Application parameter influencing functions and capabilities are part
+of the system requirements.<br>
+NOTE 2: In case of software development only, the system requirements and
+the system architecture refer to a given operating environment (see also
+note 5). In that case, stakeholder requirements should be used as the basis for
+identifying the required functions and capabilities of the software as well as for
+identifying application parameters influencing software functions and
+capabilities.<br>
+<b>SWE.1.BP2: Structure software requirements.</b> Structure the software
+requirements in the software requirements specification by e.g.<br>
+• grouping to project relevant clusters,<br>
+• sorting in a logical order for the project,<br>
+• categorizing based on relevant criteria for the project,<br>
+• prioritizing according to stakeholder needs.
+[OUTCOME 2, 4]<br>
+NOTE 3: Prioritizing typically includes the assignment of software content to
+planned releases. Refer to SPL.2.BP1.<br>
+<b>SWE.1.BP3: Analyze software requirements.</b> Analyze the specified
+software requirements including their interdependencies to ensure
+correctness, technical feasibility and verifiability, and to support risk
+identification. Analyze the impact on cost, schedule and the technical
+impact. [OUTCOME 2, 7]<br>
+NOTE 4: The analysis of impact on cost and schedule supports the adjustment
+of project estimates. Refer to MAN.3.BP5.<br>
+<b>SWE.1.BP4: Analyze the impact on the operating environment.</b>
+Analyze the impact that the software requirements will have on interfaces
+of system elements and the operating environment. [OUTCOME 3, 7]<br>
+NOTE 5: The operating environment is defined as the system in which the
+software executes (e.g. hardware, operating system, etc.).<br>
+<b>SWE.1.BP5: Develop verification criteria.</b> Develop the verification
+criteria for each software requirement that define the qualitative and
+quantitative measures for the verification of a requirement. [OUTCOME 2, 7]<br>
+NOTE 6: Verification criteria demonstrate that a requirement can be verified
+within agreed constraints and is typically used as the input for the development
+of the software test cases or other verification measures that should
+demonstrate compliance with the software requirements.<br>
+NOTE 7: Verification which cannot be covered by testing is covered by SUP.2.<br>
+<b>SWE.1.BP6: Establish bidirectional traceability.</b> Establish bidirectional
+traceability between system requirements and software requirements.
+Establish bidirectional traceability between the system architecture and
+software requirements. [OUTCOME 6]<br>
+NOTE 8: Redundancy should be avoided by establishing a combination of
+these approaches that covers the project and the organizational needs.<br>
+NOTE 9: Bidirectional traceability supports coverage, consistency and impact
+analysis.<br>
+<b>SWE.1.BP7: Ensure consistency.</b>Ensure consistency between system
+requirements and software requirements. Ensure consistency between the
+system architecture and software requirements. [OUTCOME 6]<br>
+NOTE 10: Consistency is supported by bidirectional traceability and can be
+demonstrated by review records.<br>
+NOTE 11: In case of software development only, the system requirements and
+system architecture refer to a given operating environment (see also note 2).
+In that case, consistency and bidirectional traceability have to be ensured
+between stakeholder requirements and software requirements.<br>
+<b>SWE.1.BP8: Communicate agreed software requirements.</b>
+Communicate the agreed software requirements and updates to software
+requirements to all relevant parties. [OUTCOME 8]<br>
+            <tr>
+    <th>Output work products</th>
+    <td>
+13-04 <a href="webpage.html">Communication record</a> → [OUTCOME 8]<br>
+13-19 <a href="webpage.html">Review record</a> → [OUTCOME 6]<br>
+13-21 <a href="webpage.html">Change control record</a> → [OUTCOME 5, 7]<br>
+13-22 <a href="webpage.html">Traceability record</a> → [OUTCOME 1, 6]<br>
+15-01 <a href="webpage.html">Analysis report</a>→ [OUTCOME 2, 3, 4, 7] <br>
+17-08 <a href="webpage.html">Interface requirements specification</a> → [OUTCOME 1, 3]<br>
+17-11 <a href="webpage.html">Software requirements specification</a> → [OUTCOME 1]<br>
+17-50 <a href="webpage.html">Verification criteria</a> → [OUTCOME 2]<br>
+    </td>
+      </tr>
+    </table>
+    </body>

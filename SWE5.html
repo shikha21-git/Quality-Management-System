@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Software Integration and Integration Test</title>
+</head>
+<body>
+<table>
+    <tr>
+    <th>Process ID</th>
+    <th>SWE.5</th>
+  </tr>
+    <tr>
+    <th>Process name</th>
+    <th>Software Integration and Integration Test</th>
+  </tr>
+    <tr>
+    <th>Process purpose </th>
+    <td>The purpose of the Software Integration and Integration Test Process is
+to integrate the software units into larger software items up to a complete
+integrated software consistent with the software architectural design and
+to ensure that the software items are tested to provide evidence for
+compliance of the integrated software items with the software
+architectural design, including the interfaces between the software units
+and between the software items.
+</td>
+    </tr>
+    <tr>
+    <th>Process outcomes</th>
+    <td>As a result of successful implementation of this process:<br>
+1) a software integration strategy consistent with the project plan,
+release plan and the software architectural design is developed to
+integrate the software items;<br>
+2) a software integration test strategy including the regression test
+strategy is developed to test the software unit and software item
+interactions;<br>
+3) a specification for software integration test according to the software
+integration test strategy is developed that is suitable to provide
+evidence for compliance of the integrated software items with the
+software architectural design, including the interfaces between the
+software units and between the software items;<br>
+4) software units and software items are integrated up to a complete
+integrated software according to the integration strategy;<br>
+5) Test cases included in the software integration test specification are
+selected according to the software integration test strategy, and the
+release plan;<br>
+6) integrated software items are tested using the selected test cases and
+the results of software integration test are recorded;<br>
+7) consistency and bidirectional traceability are established between the
+elements of the software architectural design and the test cases
+included in the software integration test specification and between test
+cases and test results; and<br>
+8) results of the software integration test are summarized and
+communicated to all affected parties.<br>
+</td>
+      </tr>
+        <tr>
+    <th>Base Practices</th>
+    <td>
+       <b>SWE.5.BP1: Develop software integration strategy.</b> Develop a strategy
+for integrating software items consistent with the project plan and release
+plan. Identify software items based on the software architectural design and
+define a sequence for integrating them. [OUTCOME 1]<br>
+<b>SWE.5.BP2: Develop software integration test strategy including
+regression test strategy.</b> Develop a strategy for testing the integrated
+software items following the integration strategy. This includes a regression
+test strategy for re-testing integrated software items if a software item is
+changed. [OUTCOME 2]<br>
+<b>SWE.5.BP3: Develop specification for software integration test.</b>
+Develop the test specification for software integration test including the test
+cases according to the software integration test strategy for each integrated
+software item. The test specification shall be suitable to provide evidencefor compliance of the integrated software items with the software
+architectural design. [OUTCOME 3]<br>
+NOTE 1: Compliance to the architectural design means that the specified
+integration tests are suitable to prove that the interfaces between the software
+units and between the software items fulfill the specification given by the
+software architectural design.<br>
+NOTE 2: The software integration test cases may focus on<br>
+• the correct dataflow between software items<br>
+• the timeliness and timing dependencies of dataflow between software
+items <br>
+• the correct interpretation of data by all software items using an interface<br>
+• the dynamic interaction between software items<br>
+• the compliance to resource consumption objectives of interfaces<br>
+<b>SWE.5.BP4: Integrate software units and software items.</b> Integrate the
+software units to software items and software items to integrated software
+according to the software integration strategy. [OUTCOME 4]<br>
+<b>SWE.5.BP5: Select test cases. Select test cases from the software
+integration test specification.</b> The selection of test cases shall have
+sufficient coverage according to the software integration test strategy and
+the release plan. [OUTCOME 5]<br>
+<b>SWE.5.BP6: Perform software integration test.</b> Perform the software
+integration test using the selected test cases. Record the integration test
+results and logs. [OUTCOME 6]<br>
+NOTE 4: See SUP.9 for handling of non-conformances.<br>
+NOTE 5: The software integration test may be supported by using hardware
+debug interfaces or simulation environments (e.g. Software-in-the-LoopSimulation).<br>
+<b>SWE.5.BP7: Establish bidirectional traceability.</b> Establish bidirectional
+traceability between elements of the software architectural design and test
+cases included in the software integration test specification. Establish
+bidirectional traceability between test cases included in the software
+integration test specification and software integration test results. [OUTCOME
+7]<br>
+NOTE 6: Bidirectional traceability supports coverage, consistency and impact
+analysis.<br>
+<b>SWE.5.BP8: Ensure consistency.</b> Ensure consistency between elements
+of the software architectural design and test cases included in the software
+integration test specification. [OUTCOME 7]<br>
+NOTE 7: Consistency is supported by bidirectional traceability and can be
+demonstrated by review records.<br>
+<b>SWE.5.BP9: Summarize and communicate results.</b> Summarize the
+software integration test results and communicate them to all affected
+parties. [OUTCOME 8]<br>
+NOTE 8: Providing all necessary information from the test case execution in a
+summary enables other parties to judge the consequences.<br>
+            <tr>
+    <th>Output work products</th>
+    <td>
+ 01-03 <a href="webpage.html">Software item</a> → [OUTCOME 4]<br>
+01-50 <a href="webpage.html">Integrated software</a> → [OUTCOME 4]<br>
+08-50 <a href="webpage.html">Test specification</a> → [OUTCOME 3, 5]<br>
+08-52 <a href="webpage.html">Test plan</a> → [OUTCOME 1, 2]<br>
+13-04 <a href="webpage.html">Communication record</a> → [OUTCOME 8]<br>
+13-19 <a href="webpage.html">Review record</a> → [OUTCOME 7]<br>
+13-22 <a href="webpage.html">Traceability record</a> → [OUTCOME 7]<br>
+13-50 <a href="webpage.html">Test result</a> → [OUTCOME 6, 8]<br>
+17-02 <a href="webpage.html">Build list</a>→ [OUTCOME 4, 7]<br>
+    </td>
+      </tr>
+    </table>
+</body>

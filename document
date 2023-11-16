@@ -1,0 +1,24 @@
+#Quality Management System Documentation
+## Overview
+This Project is a website That showcases various quality gates and whole VDA scope of Quality Management System
+It is created to define best practices and processes to ensure the highest quality of embedded automotive software development. 
+The main goal is to present the whole QMS in a presentable format so that it is easier to read and understand the processes.
+## Code Structure
+The code structure of the Quality Management System (QMS) is as follows:
+`CSS/` - contains CSS stylesheets
+`images/` - Stores project images
+`index.html` - The main HTML page
+## HTML Structure
+The main HTML structure consists of:
+`header` - It has IAST quality gate. It is further classified into three parts :
+IAST Project Quality Gates
+IAST System Quality Gate
+IAST SW Quality Gate
+`main` - The whole VDA Scope
+Classified into two parts: Top Container and Bottom Container
+Top Container : ACQ, SYS, SWE, MAN
+Bottom Container: SPL, SUP, REU, PIM, All the three life cycle processes
+Used grids and flexbox properties from css to design these blocks
+For the top container to divide the blocks used grid property whith 2 : 6 : 2 ratio and a gap of 10px in between these blocks(ACQ, (SYS & SWE), (MAN))
+
+

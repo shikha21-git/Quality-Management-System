@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <title>System Integration and Integration Test</title>
+</head>
+<body>
+<table>
+    <tr>
+    <th>Process ID</th>
+    <th>SYS.4</th>
+  </tr>
+    <tr>
+    <th>Process name</th>
+    <th>System Integration and Integration Test</th>
+  </tr>
+    <tr>
+    <th>Process purpose </th>
+    <td>The purpose of the System Integration and Integration Test Process is to
+integrate the system items to produce an integrated system consistent
+with the system architectural design and to ensure that the system items
+are tested to provide evidence for compliance of the integrated system
+items with the system architectural design, including the interfaces
+between system items.
+</td>
+    </tr>
+    <tr>
+    <th>Process outcomes</th>
+    <td>As a result of successful implementation of this process:<br>
+1) a system integration strategy consistent with the project plan, the
+release plan and the system architectural design is developed to
+integrate the system items;<br>
+2) a system integration test strategy including the regression test
+strategy is developed to test the system item interactions;
+3) a specification for system integration test according to the system
+integration test strategy is developed that is suitable to provide
+evidence for compliance of the integrated system items with the
+system architectural design, including the interfaces between system
+items;<br>
+4) system items are integrated up to a complete integrated system
+according to the integration strategy;<br>
+5) test cases included in the system integration test specification are
+selected according to the system integration test strategy and the
+release plan;<br>
+6) system item interactions are tested using the selected test cases and
+the results of system integration testing are recorded;<br>
+7) consistency and bidirectional traceability between the elements of the
+system architectural design and test cases included in the system
+integration test specification and bidirectional traceability between test
+cases and test results is established; and<br>
+8) results of the system integration test are summarized and
+communicated to all affected parties.</td>
+      </tr>
+        <tr>
+    <th>Base Practices</th>
+    <td>
+       <b>SYS.4.BP1: Develop system integration strategy.</b> Develop a strategy for
+integrating the system items consistent with the project plan and the
+release plan. Identify system items based on the system architectural
+design and define a sequence for integrating them. [OUTCOME 1]<br>
+<b>SYS.4.BP2: Develop system integration test strategy including
+regression test strategy.</b> Develop a strategy for testing the integrated
+system items following the integration strategy. This includes a regression
+test strategy for re-testing integrated system items if a system item is
+changed. [OUTCOME 2]<br>
+<b>SYS.4.BP3: Develop specification for system integration test.</b> Develop
+the test specification for system integration test including the test cases for
+each integration step of a system item according to the system integration
+test strategy. The test specification shall be suitable to provide evidence for
+compliance of the integrated system items with the system architectural
+design. [OUTCOME 3]<br>
+NOTE 1: The interface descriptions between system elements are an input for
+the system integration test cases.<br>
+NOTE 2: Compliance to the architectural design means that the specified
+integration tests are suitable to prove that the interfaces between the system
+items fulfill the specification given by the system architectural design.<br>
+NOTE 3: The system integration test cases may focus on<br>
+• the correct signal flow between system items<br>
+• the timeliness and timing dependencies of signal flow between system
+items<br>
+• the correct interpretation of signals by all system items using an interface<br>
+• the dynamic interaction between system items<br>
+NOTE 4: The system integration test may be supported using simulation of the
+environment (e.g. Hardware-in-the-Loop simulation, vehicle network
+simulations, digital mock-up).<br>
+<b>SYS.4.BP4: Integrate system items.</b> Integrate the system items to an
+integrated system according to the system integration strategy. [OUTCOME 4]<br>
+NOTE 5: The system integration can be performed step wise integrating
+system items (e.g. the hardware elements as prototype hardware, peripherals
+(sensors and actuators), the mechanics and integrated software) to produce a
+system consistent with the system architectural design.<br>
+<b>SYS.4.BP5: Select test cases.</b> Select test cases from the system
+integration test specification. The selection of test cases shall have
+sufficient coverage according to the system integration test strategy and
+the release plan. [OUTCOME 5]<br>
+<b>SYS.4.BP6: Perform system integration test.</b>Perform the system
+integration test using the selected test cases. Record the integration test
+results and logs. [OUTCOME 6]<br>
+NOTE 6: See SUP.9 for handling of non-conformances.<br>
+<b>SYS.4.BP7: Establish bidirectional traceability.</b>Establish bidirectional
+traceability between elements of the system architectural design and test
+cases included in the system integration test specification.
+Establish bidirectional traceability between test cases included in the
+system integration test specification and system integration test results.
+[OUTCOME 7]<br>
+NOTE 7: Bidirectional traceability supports coverage, consistency and impact
+analysis.<br>
+<b>SYS.4.BP8: Ensure consistency.</b>Ensure consistency between elements
+of the system architectural design and test cases included in the system
+integration test specification. [OUTCOME 7]<br>
+NOTE 8: Consistency is supported by bidirectional traceability and can be
+demonstrated by review records.<br>
+<b>SYS.4.BP9: Summarize and communicate results.</b> Summarize the
+system integration test results and communicate them to all affected
+parties. [OUTCOME 8]<br>
+NOTE 9: Providing all necessary information from the test case execution in a
+summary enables other parties to judge the consequences.<br>
+         <tr>
+    <th>Output work products</th>
+    <td>
+08-50 <a href="webpage.html">Test specification</a> → [OUTCOME 3, 5]<br>
+08-52 <a href="webpage.html">Test plan </a>→ [OUTCOME 1, 2]<br>
+11-06 <a href="webpage.html">System</a> → [OUTCOME 4]<br>
+13-04 <a href="webpage.html">Communication record</a> → [OUTCOME 8]<br>
+13-19 <a href="webpage.html">Review record</a> → [OUTCOME 7]<br>
+13-22 <a href="webpage.html">Traceability record</a>→ [OUTCOME 7]<br>
+13-50 <a href="webpage.html">Test result </a>→ [OUTCOME 6, 8]<br>
+    </td>
+      </tr>
+    </table>
+    </body>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Software Detailed Design and Unit Construction</title>
+</head>
+<body>
+<table>
+    <tr>
+    <th>Process ID</th>
+    <th>SWE.3</th>
+  </tr>
+    <tr>
+    <th>Process name</th>
+    <th>Software Detailed Design and Unit Construction</th>
+  </tr>
+    <tr>
+    <th>Process purpose </th>
+    <td>The purpose of the Software Detailed Design and Unit Construction
+Process is to provide an evaluated detailed design for the software
+components and to specify and to produce the software units.
+</td>
+    </tr>
+    <tr>
+    <th>Process outcomes</th>
+    <td>As a result of successful implementation of this process:<br>
+1) a detailed design is developed that describes software units;<br>
+2) interfaces of each software unit are defined;<br>
+3) the dynamic behavior of the software units is defined; <br>4) consistency and bidirectional traceability are established between
+software requirements and software units; and consistency and
+bidirectional traceability are established between software
+architectural design and software detailed design; and consistency
+and bidirectional traceability are established between software
+detailed design and software units; <br>
+5) the software detailed design and the relationship to the software
+architectural design is agreed and communicated to all affected
+parties; and<br>
+6) software units defined by the software detailed design are produced.<br>
+</td>
+      </tr>
+        <tr>
+    <th>Base Practices</th>
+    <td>
+       <b>SWE.3.BP1: Develop software detailed design.</b> Develop a detailed
+design for each software component defined in the software architectural
+design that specifies all software units with respect to functional and non functional software requirements. [OUTCOME 1]<br>
+<b>SWE.3.BP2: Define interfaces of software units.</b> Identify, specify and
+document the interfaces of each software unit. [OUTCOME 2]<br>
+<b>SWE.3.BP3: Describe dynamic behavior.</b> Evaluate and document the
+dynamic behavior of and the interaction between relevant software units.
+[OUTCOME 3]<br>
+NOTE 1: Not all software units have dynamic behavior to be described.<br>
+<b>SWE.3.BP4: Evaluate software detailed design.</b> Evaluate the software
+detailed design in terms of interoperability, interaction, criticality, technical
+complexity, risks and testability. [OUTCOME 1,2,3,4]<br>
+NOTE 2: The results of the evaluation can be used as input for software unit
+verification.<br>
+<b>SWE.3.BP5: Establish bidirectional traceability.</b> Establish bidirectional
+traceability between software requirements and software units. Establish
+bidirectional traceability between the software architectural design and the
+software detailed design. Establish bidirectional traceability between the
+software detailed design and software units. [OUTCOME 4]<br>
+NOTE 3: Redundancy should be avoided by establishing a combination of
+these approaches that covers the project and the organizational needs.<br>
+NOTE 4: Bidirectional traceability supports coverage, consistency and impact
+analysis.<br>
+<b>SWE.3.BP6: Ensure consistency.</b> Ensure consistency between software
+requirements and software units. Ensure consistency between the software
+architectural design, the software detailed design and software units.
+[OUTCOME 4]<br>
+NOTE 5: Consistency is supported by bidirectional traceability and can be
+demonstrated by review records.<br>
+<b>SWE.3.BP7: Communicate agreed software detailed design.</b>
+Communicate the agreed software detailed design and updates to the
+software detailed design to all relevant parties. [OUTCOME 5]<br>
+<b>SWE.3.BP8: Develop software units.</b>Develop and document the
+executable representations of each software unit according to the software
+detailed design. [OUTCOME 6]<br>
+            <tr>
+    <th>Output work products</th>
+    <td>
+ 04-05 <a href="webpage.html">Software detailed design</a> → [OUTCOME 1, 2, 3]<br>
+11-05 <a href="webpage.html">Software unit </a>→ [OUTCOME 6]<br>
+13-04 <a href="webpage.html">Communication record</a> → [OUTCOME 5]<br>
+13-19 <a href="webpage.html">Review record</a> → [OUTCOME 4]<br>
+13-22 <a href="webpage.html">Traceability record</a> → [OUTCOME 4]<br>
+    </td>
+      </tr>
+    </table>
+</body>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+  table {
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <title>Software Architectural Design</title>
+</head>
+<body>
+<table>
+    <tr>
+    <th>Process ID</th>
+    <th>SWE.2</th>
+  </tr>
+    <tr>
+    <th>Process name</th>
+    <th>Software Architectural Design</th>
+  </tr>
+    <tr>
+    <th>Process purpose </th>
+    <td>The purpose of the Software Architectural Design Process is to establish
+an architectural design and to identify which software requirements are to
+be allocated to which elements of the software, and to evaluate the
+software architectural design against defined criteria.
+</td>
+    </tr>
+    <tr>
+    <th>Process outcomes</th>
+    <td>As a result of successful implementation of this process:<br>
+1) a software architectural design is defined that identifies the elements
+of the software;<br>
+2) the software requirements are allocated to the elements of the
+software; <br>
+3) the interfaces of each software element are defined;<br>
+4) the dynamic behavior and resource consumption objectives of the
+software elements are defined;<br>
+5) consistency and bidirectional traceability are established between
+software requirements and software architectural design; and<br>
+6) the software architectural design is agreed and communicated to all
+affected parties.<br>
+</td>
+      </tr>
+        <tr>
+    <th>Base Practices</th>
+    <td>
+       <b>SWE.2.BP1: Develop software architectural design.</b> Develop and
+document the software architectural design that specifies the elements of
+the software with respect to functional and non-functional software
+requirements. [OUTCOME 1]<br>
+NOTE 1: The software is decomposed into elements across appropriate
+hierarchical levels down to the software components (the lowest level
+elements of the software architectural design) that are described in the
+detailed design.<br>
+<b>SWE.2.BP2: Allocate software requirements.</b> Allocate the software
+requirements to the elements of the software architectural design.
+[OUTCOME 2]<br>
+<b>SWE.2.BP3: Define interfaces of software elements.</b> Identify, develop
+and document the interfaces of each software element. [OUTCOME 3]<br>
+<b>SWE.2.BP4: Describe dynamic behavior.</b> Evaluate and document the
+timing and dynamic interaction of software elements to meet the required
+dynamic behavior of the system. [OUTCOME 4]<br>
+NOTE 2: Dynamic behavior is determined by operating modes (e.g. start-up,
+shutdown, normal mode, calibration, diagnosis, etc.), processes and process
+intercommunication, tasks, threads, time slices, interrupts, etc.<br>
+NOTE 3: During evaluation of the dynamic behavior the target platform and
+potential loads on the target should be considered.<br>
+<b>SWE.2.BP5: Define resource consumption objectives.</b>Determine and
+document the resource consumption objectives for all relevant elements of
+the software architectural design on the appropriate hierarchical level.
+[OUTCOME 4]<br>
+NOTE 4: Resource consumption is typically determined for resources like
+Memory (ROM, RAM, external / internal EEPROM or Data Flash), CPU load,
+etc.<br>
+<b>SWE.2.BP6: Evaluate alternative software architectures.</b> Define
+evaluation criteria for the architecture. Evaluate alternative software
+architectures according to the defined criteria. Record the rationale for the
+chosen software architecture. [OUTCOME 1, 2, 3, 4, 5]<br>
+NOTE 5: Evaluation criteria may include quality characteristics (modularity,
+maintainability, expandability, scalability, reliability, security realization and
+usability) and results of make-buy-reuse analysis.<br>
+<b>SWE.2.BP7: Establish bidirectional traceability.</b> Establish bidirectional
+traceability between software requirements and elements of the software
+architectural design. [OUTCOME 5]<br>
+NOTE 6: Bidirectional traceability covers allocation of software requirements to
+the elements of the software architectural design. <br>
+NOTE 7: Bidirectional traceability supports coverage, consistency and impact
+analysis.<br>
+<b>SWE.2.BP8: Ensure consistency.</b> Ensure consistency between software
+requirements and the software architectural design. [OUTCOME 1, 2, 5, 6]<br>
+NOTE 8: Consistency is supported by bidirectional traceability and can be
+demonstrated by review records.<br>
+<b>SWE.2.BP9: Communicate agreed software architectural design.</b>
+Communicate the agreed software architectural design and updates to
+software architectural design to all relevant parties. [OUTCOME 6]<br>
+            <tr>
+    <th>Output work products</th>
+    <td>
+04-04 <a href="webpage.html">Software architectural design</a> → [OUTCOME 1, 2, 3, 4, 5]<br>
+13-04 <a href="webpage.html">Communication record</a> → [OUTCOME 6]<br>
+13-19 <a href="webpage.html">Review record</a> → [OUTCOME 5]<br>
+13-22 <a href="webpage.html">Traceability record</a> → [OUTCOME 5]<br>
+17-08 <a href="webpage.html">Interface requirement specification</a> → [OUTCOME 3]<br>
+    </td>
+      </tr>
+    </table>
+    </body>
